@@ -1,0 +1,34 @@
+[
+  {
+    "@id": "1",
+    "_class": "org.springframework.statemachine.data.jpa.JpaRepositoryState",
+    "initial": true,
+    "state": "SUBMITTED"
+  },
+  {
+    "@id": "2",
+    "_class": "org.springframework.statemachine.data.jpa.JpaRepositoryState",
+    "initial": false,
+    "state": "PAID"
+  },
+  {
+    "@id": "3",
+    "_class": "org.springframework.statemachine.data.jpa.JpaRepositoryState",
+    "initial": false,
+    "state": "SHIPPED"
+  },
+  {
+    "_class": "org.springframework.statemachine.data.jpa.JpaRepositoryTransition",
+    "source": "1",
+    "target": "2",
+    "event": "E1",
+    "kind": "EXTERNAL"
+  },
+  {
+    "_class": "org.springframework.statemachine.data.jpa.JpaRepositoryTransition",
+    "source": "2",
+    "target": "3",
+    "event": "E2",
+    "kind": "EXTERNAL"
+  }
+]

@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    platform: h2
+    sql-script-encoding: utf-8
+  h2:
+    console:
+      enabled: true
+  jpa:
+    generate-ddl: true
+    hibernate:
+      use-new-id-generator-mappings: true
+  flyway:
+    enabled: false
+logging:
+  level:
+    root: 'INFO'
+    org.hibernate.SQL: DEBUG

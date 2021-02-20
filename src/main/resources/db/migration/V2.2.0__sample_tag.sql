@@ -1,0 +1,2 @@
+INSERT INTO tags(id, item_id, type) VALUES ('c245e901-8a58-e58c-21b1-ef34910166e0', 'a27745ad-ab77-b954-7aaa-c2f5222b1665', '芋');
+INSERT INTO tags(id, item_id, type) VALUES ('c4df543a-b5df-1dc1-5d41-77cdc494aec7', '26918546-0893-09ca-84a3-04752f615cda', '芋');
